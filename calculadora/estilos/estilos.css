@@ -1,0 +1,32 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  height: 100vh;
+  width: 100vw;
+  background-color:#0B6138;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+.calculadora{
+  width: 500px;
+height: 600px;
+background-color: #fff;
+border-radius: 10px;
+padding: 30px;
+}
+
+.input_calculadora{
+  width: 450px;
+  margin: 20px;
+padding: 5px;
+border-radius: 10px;
+}
+#resultado{
+  padding: 20px;
+  border:2px dotted #000;
+
+
+}

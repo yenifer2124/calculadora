@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+  </head>
+  <body>
+    <section class="contenedor">
+<div class="calculadora">
+<label for="primer_numero">
+Primer numero:
+<input type="text" id="primer_numero" class="input_calculadora" name="primer_numero">
+</label>
+<label for="operador">
+  Operador
+<select class="input_calculadora" id="operador" name="operador">
+<option value="suma">+</option>
+<option value="resta">-</option>
+<option value="multiplicacion">*</option>
+<option value="division">/</option>
+</select>
+</label>
+<label for="segundo_numero">
+Segundo numero:
+<input type="text" id="segundo_numero" class="input_calculadora" name="segundo_numero">
+</label>
+<button onclick="limpiar()" class="input_calculadora">Limpiar</button>
+
+<button id="boton_calcular" class="input_calculadora">Calcular</button>
+
+<p id="resultado">
+  Aqui podras ver el resultado de tu operacion
+</p>
+</div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts/calculadora.js"></script>
+  </body>
+</html>
